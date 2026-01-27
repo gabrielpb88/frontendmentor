@@ -123,8 +123,8 @@ button span {
     }
 
     .card {
-        max-width: 100%;
-        padding: 40px;
+        width: 100%;
+        padding: 16px;
     }
 
     .image {
