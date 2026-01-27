@@ -95,9 +95,5 @@ function calculateTip(bill, tipPercentage, peopleAmount, customTip) {
 }
 
 function disableResetButton() {
-  if(!billInputElement.value || !numberOfPeopleElement.value){
-    btnResetElement.disabled = true;
-  } else {
-    btnResetElement.disabled = false;
-  }
+  btnResetElement.disabled = !billInputElement.value || !numberOfPeopleElement.value;
 }
